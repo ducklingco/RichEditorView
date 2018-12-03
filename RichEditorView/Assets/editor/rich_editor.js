@@ -126,7 +126,7 @@ RE.updatePlaceholder = function() {
 };
 
 RE.removeFormat = function() {
-    document.execCommand('removeFormat', false, null);
+    document.execCommand('formatBlock', false, '<p>');
 };
 
 RE.setFontSize = function(size) {

@@ -131,6 +131,10 @@ open class RichEditorToolbar: UIView {
                 let button = RichBarButtonItem(title: title, handler: handler)
                 buttons.append(button)
             }
+          // Duckling
+          let space = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
+          space.width = 15
+          buttons.append(space)
         }
         toolbar.items = buttons
 

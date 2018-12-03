@@ -59,3 +59,38 @@ div {
     color:#666666;
     font-size: 12pt;
 }
+
+/* Duckling */
+@font-face {
+  font-family: 'HurmeGeometricSans3Regular';
+  src: local('HurmeGeometricSans3-Regular'), url('Hurme Design - HurmeGeometricSans3 Regular.otf') format('opentype');
+}
+
+html {
+  background-color: #fcfcf9;
+}
+
+#editor {
+  font-family: 'Georgia' !important;
+  color: #262626 !important;
+  font-size: 12pt !important;
+  padding: 1em;
+}
+
+#editor h1, #editor h2 {
+  font-family: 'HurmeGeometricSans3Regular';
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0;
+}
+
+#editor h1 {
+  text-transform: uppercase;
+  font-size: 28pt;
+  margin-bottom: 0.75em;
+}
+
+#editor h2 {
+  font-size: 16pt;
+  margin-bottom: 1em;
+}
