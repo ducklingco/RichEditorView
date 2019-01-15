@@ -94,3 +94,11 @@ html {
   font-size: 16pt;
   margin-bottom: 1em;
 }
+
+#editor p {
+  margin-bottom: 1em;
+}
+
+#editor a {
+  color: #C62322;
+}
