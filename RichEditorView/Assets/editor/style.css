@@ -63,18 +63,18 @@ div {
 /* Duckling */
 @font-face {
   font-family: 'Merriweather';
-  src: local('MerriweatherRegular'), url('Merriweather-Regular.ttf') format('opentype');
+  src: local('MerriweatherRegular'), url('Merriweather-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Merriweather';
-  src: local('MerriweatherBold'), url('Merriweather-Bold.ttf') format('opentype');
+  src: local('MerriweatherBold'), url('Merriweather-Bold.otf') format('opentype');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'Merriweather';
-  src: local('MerriweatherItalic'), url('Merriweather-Italic.ttf') format('opentype');
+  src: local('MerriweatherItalic'), url('Merriweather-Italic.otf') format('opentype');
   font-style: italic;
 }
 
@@ -86,7 +86,6 @@ html {
   font-family: 'Merriweather' !important;
   color: #262626 !important;
   font-size: 12pt !important;
-  line-height: 13pt;
   padding: 1em;
 }
 
@@ -111,6 +110,7 @@ html {
 
 #editor p {
   margin-bottom: 1em;
+  line-height: 13pt !important;
 }
 
 #editor a {
