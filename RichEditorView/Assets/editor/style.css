@@ -62,8 +62,20 @@ div {
 
 /* Duckling */
 @font-face {
-  font-family: 'HurmeGeometricSans3Regular';
-  src: local('HurmeGeometricSans3-Regular'), url('Hurme Design - HurmeGeometricSans3 Regular.otf') format('opentype');
+  font-family: 'Merriweather';
+  src: local('MerriweatherRegular'), url('Merriweather-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('MerriweatherBold'), url('Merriweather-Bold.ttf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('MerriweatherItalic'), url('Merriweather-Italic.ttf') format('opentype');
+  font-style: italic;
 }
 
 html {
@@ -71,28 +83,30 @@ html {
 }
 
 #editor {
-  font-family: 'Georgia' !important;
+  font-family: 'Merriweather' !important;
   color: #262626 !important;
   font-size: 12pt !important;
+  line-height: 13pt;
   padding: 1em;
 }
 
 #editor h1, #editor h2 {
-  font-family: 'HurmeGeometricSans3Regular';
-  font-weight: normal;
-  line-height: 1em;
   margin: 0;
 }
 
 #editor h1 {
-  text-transform: uppercase;
-  font-size: 28pt;
+  font-size: 20pt;
+  line-height: 24pt;
   margin-bottom: 0.75em;
+  font-weight: bold;
 }
 
 #editor h2 {
-  font-size: 16pt;
+  font-size: 17pt;
+  line-height: 20pt;
   margin-bottom: 1em;
+  font-weight: normal;
+  font-style: italic;
 }
 
 #editor p {
